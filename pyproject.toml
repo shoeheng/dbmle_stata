@@ -3,7 +3,7 @@ requires = ["setuptools >= 77.0.3"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "dbmle"
+name = "dbmle_stata"
 version = "0.0.2"
 description = "Design-based MLE to estimate always taker, complier, defier, never taker counts."
 readme = "README.md"
@@ -20,9 +20,8 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/shoeheng/dbmle"
-Issues = "https://github.com/shoeheng/dbmle/issues"
-PyPI = "https://pypi.org/project/dbmle/"
+Homepage = "https://github.com/shoeheng/dbmle_stata"
+Issues = "https://github.com/shoeheng/dbmle_stata/issues"
 
 [project.scripts]
 dbmle = "dbmle.cli:main"
@@ -32,6 +31,7 @@ package-dir = {"" = "src"}
 
 [tool.setuptools.packages.find]
 where = ["src"]
+
 
 
 
